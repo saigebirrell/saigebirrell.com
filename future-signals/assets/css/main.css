@@ -1,7 +1,12 @@
+ 
+
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	cursor: default;
 }
+
+
 
 a {
 	color:red;
@@ -11,8 +16,8 @@ a {
 
 .nav {
 	width: 100%;
-	background-color: #fce6f1;
-	padding: 5px;
+	background-color:#f7f7f7;
+	padding: 3px;
 	position: fixed;
 	text-align: center;
 	top: 0px;
@@ -20,30 +25,41 @@ a {
 }
 
 
+
+
+
 .nav-item {
 	display: inline-block;
 	padding: 5px;
-	background-color: #fce6f1;
+	background-color: #f7f7f7;
 	border-radius: 5px;
-	color: #ff99d0;
+	color: #fc42af;
 	font-family: 'Fjalla One', sans-serif;
 	text-decoration: none;
+	font-size: 20px;
 }
+
+
+
 
 
 .nav-header {
 	display: inline-block;
-	padding: 5px;
-	color: white;
+	padding: 3px;
+	color: #fc42af;
 	font-family: 'Fjalla One', sans-serif;
+	font-size: 20px;
 
 }
+
 
 
 
 .title {
 	width: 100%;
 }
+
+
 
 
 
@@ -63,23 +79,23 @@ a {
 
 
 
+
 .text { 
-	padding: 7% 20% 0 20%;
+	padding: 10% 22% 0 22%;
 	font-family: 'Fjalla One', sans-serif, bold;
-	font-size: 36px;
-
-
+	font-size: 20px;
 }
 
 
 
 
 .text h1 {
-	font-size: 70px;
+	font-size: 85px;
 	font-family: 'Fjalla One', sans-serif;
-	color: #ff8fcb;
+	color: #fcbbf4;
 	margin-bottom: 15vh;
 	padding: 35px 0 0 0;
+	text-align: center;
 }
 
 
@@ -88,9 +104,9 @@ a {
 .text p {
 	margin-bottom: 20px;
 	font-family: 'Arimo', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: normal;
-	font-kerning: 10px;
+	line-height: 23px;
 }
 
 
@@ -106,8 +122,9 @@ a {
 
 .research-item {
 	flex: 0 0 33.333%;
-	padding: 10px;
+	padding: 50px;
 }
+
 
 
 
@@ -121,25 +138,21 @@ a {
 
 .research-item span {
 	color: grey;
+	font-size: 15px;
+	font-family: 'Arimo', sans-serif;
+
 }
 
 
 /* interactive classes */
-
-.large {
-	flex:0 0 66.666%;
-	transition: 2s;
-}
-
 
 .hide {
 	display: none;
 }
 
 
-.active {
-	background-color: red;
-}
+
+
 
 
 

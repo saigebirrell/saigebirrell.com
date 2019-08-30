@@ -1,20 +1,39 @@
-$ (document).ready(function(){
-	console.log("hello world");
+$(document).ready(function(){
+
+console.log ("im ready");
 
 
-	$('.research-item').click(function(){
-		$(this).addClass('large');
-
+	$('.btn-all').click(function(){
+		$('.research-item').addClass('hide');
+		$('.all').removeClass('hide');
 	});
 
 
 
-
-	var hideAll = function() {
+	$('.btn-signup').click(function(){
 		$('.research-item').addClass('hide');
+		$('.signup').removeClass('hide');
+	});
 
-	}
 
+
+	$('.btn-profile').click(function(){
+		$('.research-item').addClass('hide');
+		$('.profile').removeClass('hide');
+	});
+
+
+
+	$('.btn-match').click(function(){
+		$('.research-item').addClass('hide');
+		$('.match').removeClass('hide');
+	});
+
+
+	$('.btn-genetics').click(function(){
+		$('.research-item').addClass('hide');
+		$('.genetics').removeClass('hide');
+	});
 
 
 
