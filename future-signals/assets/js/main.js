@@ -30,9 +30,9 @@ console.log ("im ready");
 	});
 
 
-	$('.btn-genetics').click(function(){
+	$('.btn-dna').click(function(){
 		$('.research-item').addClass('hide');
-		$('.genetics').removeClass('hide');
+		$('.dna').removeClass('hide');
 	});
 
 
