@@ -1,35 +1,18 @@
 
 
 body {
-	background-image: url(backgroundone.jpeg); 
 	font-family: impact,sans-serif;
-	font-size: 70px;
+	font-size: 32px;
 	cursor: pointer;	
+	background-image: "flamingobackground.png";
 }
-
-
-
- 
-.title {
-	width: 100%;
-	font-family: 'Fjalla One', sans-serif, bold;
-	color: #ffc0bf;
-	font-size: 140px;
-	text-align: left;
-	text-shadow: 5px 5px #f71714;
-	margin-top: 10%;
-	padding: 0% 2%;
-}
-
-
-
 
 
 
 .nav {
 	width: 100%;
-	background-color:#73adff;
-	padding: 1px;
+	background-color:#ffb8b8;
+	padding: 5px 5px;
 	position: fixed;
 	text-align: center;
 	top: 0px;
@@ -38,15 +21,30 @@ body {
 
 
 .nav-item {
-	display: inline-block;
-	padding: 1px;
-	background-color: #73adff;
-	border-radius: 5px;
+	display: inline-block; 
+	padding: 3px;
+	background-color: #ffb8b8;
 	color: white;
 	font-family: 'Fjalla One', sans-serif;
 	text-decoration: none;
 	font-size: 20px;
 }
+ 
+
+
+
+.title {
+	width: 100%;
+	font-family: 'Fjalla One', sans-serif, bold;
+	color: #ffc0bf;
+	font-size: 140px;
+	text-align: left;
+	text-shadow: 5px 5px #f71714;
+	padding: 10% 2%;
+}
+
+
+
 
 
 
