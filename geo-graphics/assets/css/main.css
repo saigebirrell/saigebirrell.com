@@ -49,18 +49,18 @@ a {
 
 
 
-.checkers-pink {
+.checkers-darkgreen {
  	flex:0 0 50%;
  	height: 50vh;
- 	background-color: pink;
+ 	background-color: darkgreen;
 }
 
 
 
-.checkers-white {
+.checkers-lightgreen {
  	flex: 0 0 50%;
  	height: 50vh;
- 	background-color: white;
+ 	background-color: lightgreen;
 }
 
 
@@ -83,6 +83,7 @@ a {
 	font-size: 15vw;
 	font-family: Helvetica;
 	padding: 2vw;
+	color: white;
 }
 
 
