@@ -10,17 +10,17 @@ a {
 
 /* IP */
 
-/* backgorund-color:red */
-/* backgorund-color:lime */
-/* backgorund-color:blue */
-/* backgorund-color:cyan */
-/* backgorund-color:magenta */
-/* backgorund-color:grey */
+/* background-color:red */
+/* background-color:lime */
+/* background-color:blue */
+/* background-color:cyan */
+/* background-color:magenta */
+/* background-color:grey */
 
 .ip{
 	width: 100vw;
 	height:100vh;
-	background-color: lime;
+	background-color: yellow;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -29,7 +29,7 @@ a {
 .ip-text {
  	font-size: 12.5vw;
  	color: white;
- 	font-family: Andale Mono;
+ 	font-family: Helvetica;
 }
 
 
@@ -42,7 +42,7 @@ a {
 }
 
 
-.checkers-red {
+.checkers-pink {
  	flex:0 0 50%;
  	height: 50vh;
  	background-color: red;
@@ -73,8 +73,8 @@ a {
 
 .checkers-text {
 	font-size: 15vw;
-	font-family: Andale Mono;
-	border: 1vw solid black;
+	font-family: Helvetica;
+	border: 1vw solid grey;
 	padding: 2vw;
 }
 
@@ -102,5 +102,5 @@ a {
 .letter {
  font-size:50vw;
  color: white;
- font-family: Andale Mono;
+ font-family: Helvetica;
 }
