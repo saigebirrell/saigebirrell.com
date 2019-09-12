@@ -79,6 +79,11 @@ a {
 }
 
 
+
+
+
+
+
 /* USER */
 
 .user {
@@ -103,6 +108,10 @@ a {
 }
 
 
+
+
+
+
 /* LETTER */
 
 .letter {
@@ -110,6 +119,10 @@ a {
  color: white;
  font-family: Helvetica;
 }
+
+
+
+
 
 
 
@@ -129,7 +142,21 @@ a {
 
 
 
+
+
+
+
 /* ADDRESS - PINDROP */
+
+
+
+
+
+
+
+
+
+
 
 
 /* ADDRESS - WIFI PASSWORD */
@@ -198,6 +225,11 @@ a {
 }
 
 
+
+
+
+
+
 /* ADDRESS - SCANNING */
 
 .scanning {
@@ -219,7 +251,15 @@ a {
 
 
 
+
+
+
+
 /* EARTH - CONTINENT */
+
+
+
+
 
 
 
@@ -297,11 +337,86 @@ a {
 }
 
 
+
+
 /* EARTH - MATERIALS */
 
 
 
+
+
+
+
 /* EARTH - OCEANS */
+
+.ocean-background {
+width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+
+.ocean {
+	width: 80vw;
+	height: 90vh;
+	background-color: #547fff;
+	border-radius: 50%;
+	font-family: verdana; 
+	color: #0712e0;
+}
+
+
+.arctic {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 2% 0 0 0;
+	font-family: impact;
+}
+
+
+.atlantic {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	padding: 8% 0 0 20%;
+	font-family: impact;
+}
+
+
+.indian {
+	display: flex;
+	align-items: right;
+	justify-content: right;
+	padding: 11% 0 0 80% ;
+	font-family: impact;
+}
+
+
+.pacific {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	padding: 0 30% 0 10%;
+	font-family: impact;
+}
+
+
+.southern {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 17% 0 0 0;
+	font-family: impact;
+}
+
+
+
+
+
 
 
 
@@ -315,12 +430,6 @@ a {
 	align-items: center;
 	justify-content: center;
 }
-
-.stars-item {
-
-
-}
-
 
 .moon-item {
 	width: 100px;
