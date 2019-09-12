@@ -12,13 +12,6 @@ a {
 
 /* IP */
 
-/* background-color:red */
-/* background-color:lime */
-/* background-color:blue */
-/* background-color:cyan */
-/* background-color:magenta */
-/* background-color:grey */
-
 
 .ip{
 	width: 100vw;
@@ -37,7 +30,9 @@ a {
  	font-family: Helvetica italic;
 }
 
+ 
 
+/* CHECKERS */ 
 
 .checkers {
 	width: 100vw;
@@ -46,7 +41,6 @@ a {
 	flex-wrap: wrap;
 
 }
-
 
 
 .checkers-darkgreen {
@@ -64,8 +58,6 @@ a {
 }
 
 
-
-/* CHECKERS*/
 
 .checkers-type {
 	width: 100vw;
@@ -87,6 +79,7 @@ a {
 }
 
 
+/* USER */
 
 .user {
 	width: 100vw;
@@ -110,12 +103,213 @@ a {
 }
 
 
+/* LETTER */
 
 .letter {
  font-size:50vw;
  color: white;
  font-family: Helvetica;
 }
+
+
+
+/* ADDRESS - HOTSPOT */
+
+.hotspot {
+	background-color: darkgrey; 
+}
+
+
+.hotspot-oval {
+ 	width: 160px;
+ 	height: 80px;
+ 	background: #a84909;
+ 	border-radius: 35%;
+}
+
+
+
+/* ADDRESS - PINDROP */
+
+
+/* ADDRESS - QR CODE */
+
+
+/* ADDRESS - SAVE PASSWORD */
+
+.password {
+	background-color: lightgrey;
+	padding: 20% 30%; 
+	text-align: center;
+
+}
+
+.password-text {
+	font-family: helvetica;
+	font-size: 30px;
+}
+
+
+.password-button {
+	text-align: center;
+	padding: 30px 50px;
+}
+
+
+.password-button-item {
+	background-color: red;
+	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	border-radius: 8px;
+}
+
+
+.password-button-item:hover {
+	background-color: #4CAF50; 
+	color: white;
+	border-radius: 8px;
+}
+
+
+/* ADDRESS - SCANNING */
+
+.scanning {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+
+
+.scanning-bar {
+	width: 100vw;
+  	height: 5px;
+ 	background-color: lime; 
+  	box-shadow: 0 0 50px 60px #00ff11;
+}
+
+
+
+/* EARTH - CONTINENT */
+
+
+
+
+/* EARTH - LAYERS */
+
+.black-circle {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000573;
+}
+
+.light-blue-circle {
+	width: 85vw;
+	height: 85vh;
+	background-color: #53dff5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.dark-blue-circle {
+	width: 70vw;
+	height:70vh;
+	background-color: #000ad1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.green-circle {
+	width: 50vw;
+	height:50vh;
+	background-color: #007a45;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.brown-circle {
+	width: 35vw;
+	height:35vh;
+	background-color: #a64505;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.orange-circle {
+	width: 20vw;
+	height:20vh;
+	background-color: #e66102;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+
+}
+
+.red-circle {
+	width: 10vw;
+	height:10vh;
+	background-color: #b50202;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+
+/* EARTH - MATERIALS */
+
+
+
+/* EARTH - OCEANS */
+
+
+
+/* EARTH - SPINNING STARS */
+
+.space {
+	 background: black;
+}
+
+.stars-item {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
