@@ -132,7 +132,29 @@ a {
 /* ADDRESS - PINDROP */
 
 
-/* ADDRESS - QR CODE */
+/* ADDRESS - WIFI PASSWORD */
+
+.wifi-password {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+
+.wifi-text {
+	font-family: verdana;
+	color: white;
+	font-size: 50px;
+  	text-decoration: none;
+  	display: inline-block;
+
+}
+
+
+
 
 
 /* ADDRESS - SAVE PASSWORD */
@@ -285,14 +307,30 @@ a {
 
 /* EARTH - SPINNING STARS */
 
-.space {
-	 background: black;
+.stars {
+	width: 100vw;
+	height:100vh;
+	background: linear-gradient(to bottom, #0c007a 0%, #8774b8 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .stars-item {
 
+
 }
 
+
+.moon-item {
+	width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     box-shadow: 15px 15px 0 0 white;
+     opacity: 50%;
+     display: flex;
+
+}
 
 
 
