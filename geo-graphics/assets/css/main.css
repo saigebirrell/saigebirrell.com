@@ -267,26 +267,17 @@ body {
 
 
 
-/* ADDRESS - WIFI PASSWORD */
+/* EARTH - BATTERY */
+.lithium {
+	background-image: url("geo-graphics/assets/images/lithium.png");
+	background-size: 100%;
 
-.wifi-password {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: black;
-}
+} 
 
 
-.wifi-text {
-	font-family: verdana;
-	color: white;
-	font-size: 50px;
-  	text-decoration: none;
-  	display: inline-block;
 
-}
+
+
 
 
 
@@ -486,7 +477,7 @@ body {
 /* EARTH - OCEANS */
 
 .ocean-background {
-width: 100vw;
+	width: 100vw;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -548,6 +539,62 @@ width: 100vw;
 	padding: 17% 0 0 0;
 	font-family: impact;
 }
+
+
+
+
+/* EARTH - ROTATION */
+
+.earth-rotate {
+	display: flex;
+  	flex-wrap:wrap;
+}
+
+
+.earth-red {
+  width: 50%;
+  height: 50vh;
+  border-radius: 50%;
+height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 100px 100px, red, #000);
+}
+
+
+.earth-blue {
+  width: 50%;
+  height: 50vh;
+    border-radius: 50%;
+height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 100px 100px, blue, #000);
+}
+
+
+.earth-green {
+  width: 50%;
+  height: 50vh;
+   border-radius: 50%;
+height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 100px 100px, green, #000);
+}
+
+
+.earth-black {
+  width: 50%;
+  height: 50vh;
+    border-radius: 50%;
+height: 300px;
+  width: 300px;
+  background: radial-gradient(circle at 100px 100px, black, #000);
+}
+
+
+
+
+
+
 
 
 
