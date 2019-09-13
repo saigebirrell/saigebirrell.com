@@ -108,12 +108,6 @@ a {
 }
 
 
-
-
-
-
-/* LETTER */
-
 .letter {
  font-size:50vw;
  color: white;
@@ -121,6 +115,52 @@ a {
 }
 
 
+
+
+/* ADDRESS - WARNING */
+
+
+.warning {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+.warning-item {
+	font-family: impact, bold;
+	font-size: 100px;
+	color: red;
+	padding: 10px;
+	animation: warning-blinker 1s linear infinite;
+}
+
+
+@keyframes warning-blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+.battery-item {
+	font-family: impact, bold;
+	font-size: 100px;
+	padding: 10px;
+	color: black;
+	animation: battery-blinker 2s linear infinite;
+}
+
+
+@keyframes battery-blinker {
+  50% {
+    opacity: 0;
+  }
+}
 
 
 
@@ -411,7 +451,8 @@ body {
 
 .materials-row {
   display: flex;
-  background-color: #bf774e;
+  flex-wrap: wrap;
+  background-color: white;
 }
 
 .aluminium {
