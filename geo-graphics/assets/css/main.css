@@ -269,9 +269,12 @@ body {
 
 /* EARTH - BATTERY */
 .lithium {
-	background-image: url("geo-graphics/assets/images/lithium.png");
-	background-size: 100%;
-
+	background-image: url("assets/images/lithium.png");
+    height:600px;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    position:relative;
 } 
 
 
