@@ -1,4 +1,4 @@
-body {
+ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 }
@@ -340,14 +340,309 @@ body {
 
 /* ADDRESS - LICENCE */
 
+.licence {
+	position: relative;
+  	top: 0;
+  	left: 0;
+}
 
-/* ADDRESS - EMAIL */
+.licence-background {
+	position: relative;
+  	top: 0;
+  	left: 0;
+  	height: auto;
+}
+
+.licence-art {
+	position: absolute;
+  	top: 10%;
+  	left: 30%;
+  	display: inline-block;
+}
+
+
+
+
+
 
 
 /* ADDRESS -  BARCODE */
 
 
+.barcode-one {
+	border-left: 12px solid black;
+ 	height: 696px;
+ 	padding-left: 4px;
+ 	display: inline-block;
+}
+
+
+.barcode-two {
+	border-left: 60px solid black;
+ 	height: 696px;
+ 	padding-left: 8px;
+ 	display: inline-block;
+}
+
+
+.barcode-three {
+	border-left: 30px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+
+.barcode-four {
+	border-left: 64px solid black;
+ 	height: 696px;
+ 	padding-left: 3px;
+ 	display: inline-block;
+}
+
+.barcode-five {
+	border-left: 20px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+.barcode-six {
+	border-left: 8px solid black;
+ 	height: 696px;
+ 	padding-left: 6px;
+ 	display: inline-block;
+}
+
+.barcode-seven {
+	border-left: 50px solid black;
+ 	height: 696px;
+ 	padding-left: 9px;
+ 	display: inline-block;
+}
+
+.barcode-eight {
+	border-left: 20px solid black;
+ 	height: 696px;
+ 	padding-left: 4px;
+ 	display: inline-block;
+}
+
+.barcode-nine {
+	border-left: 34px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+.barcode-ten {
+	border-left: 65px solid black;
+ 	height: 696px;
+ 	padding-left: 5px;
+ 	display: inline-block;
+}
+
+.barcode-eleven {
+	border-left: 15px solid black;
+ 	height: 696px;
+ 	padding-left: 10px;
+ 	display: inline-block;
+}
+
+.barcode-twelve {
+	border-left: 40px solid black;
+ 	height: 696px;
+ 	padding-left: 4px;
+ 	display: inline-block;
+}
+
+.barcode-thirteen {
+	border-left: 65px solid black;
+ 	height: 696px;
+ 	padding-left: 8px;
+ 	display: inline-block;
+}
+
+.barcode-fourteen {
+	border-left: 23px solid black;
+ 	height: 696px;
+ 	padding-left: 15px;
+ 	display: inline-block;
+}
+
+.barcode-fifteen {
+	border-left: 30px solid black;
+ 	height: 696px;
+ 	padding-left: 7px;
+ 	display: inline-block;
+}
+
+.barcode-sixteen {
+	border-left: 55px solid black;
+ 	height: 696px;
+ 	padding-left: 4px;
+ 	display: inline-block;
+}
+
+.barcode-seventeen {
+	border-left: 12px solid black;
+ 	height: 696px;
+ 	padding-left: 12px;
+ 	display: inline-block;
+}
+
+.barcode-eighteen {
+	border-left: 48px solid black;
+ 	height: 696px;
+ 	padding-left: 7px;
+ 	display: inline-block;
+}
+
+.barcode-nineteen {
+	border-left: 20px solid black;
+ 	height: 696px;
+ 	padding-left: 10px;
+ 	display: inline-block;
+}
+
+.barcode-twenty {
+	border-left: 20px solid black;
+ 	height: 696px;
+ 	padding-left: 10px;
+ 	display: inline-block;
+}
+
+.barcode-twentyone {
+	border-left: 12px solid black;
+ 	height: 696px;
+ 	padding-left: 4px;
+ 	display: inline-block;
+}
+
+.barcode-twentytwo {
+	border-left: 60px solid black;
+ 	height: 696px;
+ 	padding-left: 8px;
+ 	display: inline-block;
+}
+
+.barcode-twentythree {
+	border-left: 30px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+.barcode-twentyfour {
+	border-left: 64px solid black;
+ 	height: 696px;
+ 	padding-left: 3px;
+ 	display: inline-block;
+}
+
+.barcode-twentyfive {
+	border-left: 20px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+.barcode-twentysix {
+	border-left: 8px solid black;
+ 	height: 696px;
+ 	padding-left: 6px;
+ 	display: inline-block;
+}
+
+.barcode-twentyseven {
+	border-left: 50px solid black;
+ 	height: 696px;
+ 	padding-left: 9px;
+ 	display: inline-block;
+}
+
+.barcode-twentyeight {
+	border-left: 30px solid black;
+ 	height: 696px;
+ 	padding-left: 2px;
+ 	display: inline-block;
+}
+
+.barcode-twentynine {
+	border-left: 15px solid black;
+ 	height: 696px;
+ 	padding-left: 7px;
+ 	display: inline-block;
+}
+
+.barcode-thirty {
+	border-left: 8px solid black;
+ 	height: 696px;
+ 	padding-left: 6px;
+ 	display: inline-block;
+}
+
+
+
+
+
+
+
+/* ADDRESS - EMAIL */
+
+.email {
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.email-sign {
+	background-color: black;
+	font-size: 140px;
+	color: white;
+	padding: 20px;
+	position: flex;
+	flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
 /* ADDRESS - MYKI */
+
+.myki {
+  	display: flex;
+  	flex-wrap: wrap;
+  	background-color: white;
+}
+
+
+
+.myki-word {
+	margin: auto;
+	width: 50%;
+  	padding: 50px 0 50px 50px;
+
+}
+
+
+
+
+.pass {
+	margin: auto;
+	width: 50%;
+  	padding: 50px 50px 50px 0;
+}
+
 
 
 /* ADDRESS - MAP LINES */
@@ -567,46 +862,47 @@ body {
 .earth-rotate {
 	display: flex;
   	flex-wrap:wrap;
+  	padding: 200px 20px 200px 100px;
 }
 
 
 .earth-red {
-  width: 50%;
-  height: 50vh;
-  border-radius: 50%;
-height: 300px;
-  width: 300px;
-  background: radial-gradient(circle at 100px 100px, red, #000);
+ 	width: 50%;
+ 	height: 50vh;
+	border-radius: 50%;
+	height: 300px;
+ 	width: 300px;
+ 	background: radial-gradient(circle at 100px 100px, red, #000);
 }
 
 
 .earth-blue {
-  width: 50%;
-  height: 50vh;
+ 	width: 50%;
+ 	height: 50vh;
     border-radius: 50%;
-height: 300px;
-  width: 300px;
-  background: radial-gradient(circle at 100px 100px, blue, #000);
+	height: 300px;
+  	width: 300px;
+  	background: radial-gradient(circle at 100px 100px, blue, #000);
 }
 
 
 .earth-green {
-  width: 50%;
-  height: 50vh;
-   border-radius: 50%;
-height: 300px;
-  width: 300px;
-  background: radial-gradient(circle at 100px 100px, green, #000);
+  	width: 50%;
+  	height: 50vh;
+   	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+  	background: radial-gradient(circle at 100px 100px, green, #000);
 }
 
 
-.earth-black {
-  width: 50%;
-  height: 50vh;
+.earth-yellow {
+  	width: 50%;
+ 	height: 50vh;
     border-radius: 50%;
-height: 300px;
-  width: 300px;
-  background: radial-gradient(circle at 100px 100px, black, #000);
+	height: 300px;
+  	width: 300px;
+  	background: radial-gradient(circle at 100px 100px, yellow, #000);
 }
 
 
