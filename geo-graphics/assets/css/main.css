@@ -939,19 +939,40 @@ body {
 
 
 .windmill {
-  animation: rotation 4s infinite;
-  transform-origin: center center;
+	text-align: center;
+	padding: 100px 0 0 0;
+	color: #fff;
+	background: white;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
- }
-  to {
-  	transform: rotate(360deg);
-  }
+.windmillpic {
+	animation: turn 2s infinite linear;
+}
+
+@keyframes turn {
+		from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
 
 
+
+
+
+
+/* EARTH - ALIEN */
+
+.alien {
+	padding: 100px;
+}
+
+
+.alien-eyes {
+	padding: 100px;
+
+}
 
 
 
@@ -959,7 +980,6 @@ body {
 /* EARTH - CHARGER */
 
 
-/* EARTH - ALIEN */
 
 
 /* EARTH - MOVING WATER */
