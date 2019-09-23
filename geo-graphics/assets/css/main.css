@@ -117,6 +117,8 @@ a {
 
 
 
+
+
 /* ADDRESS - WARNING */
 
 
@@ -126,9 +128,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
-
 
 .warning-item {
 	font-family: impact, bold;
@@ -144,8 +144,6 @@ a {
     opacity: 0;
   }
 }
-
-
 
 .battery-item {
 	font-family: impact, bold;
@@ -267,23 +265,6 @@ body {
 
 
 
-/* EARTH - BATTERY */
-.lithium {
-	background-image: url("assets/images/lithium.png");
-    height:600px;
-    background-attachment:fixed;
-    background-size:cover;
-    background-position:center;
-    position:relative;
-} 
-
-
-
-
-
-
-
-
 
 
 /* ADDRESS - SAVE PASSWORD */
@@ -357,7 +338,20 @@ body {
 
 
 
-/* EARTH - CONTINENT */
+/* ADDRESS - LICENCE */
+
+
+/* ADDRESS - EMAIL */
+
+
+/* ADDRESS -  BARCODE */
+
+
+/* ADDRESS - MYKI */
+
+
+/* ADDRESS - MAP LINES */
+
 
 
 
@@ -441,6 +435,8 @@ body {
 
 
 
+
+
 /* EARTH - MATERIALS */
 
 .materials-row {
@@ -473,6 +469,8 @@ body {
   flex: 20%;
   padding: 10% 0 10% 0;
 }
+
+
 
 
 
@@ -546,6 +544,24 @@ body {
 
 
 
+
+
+
+/* EARTH - BATTERY */
+.lithium {
+	background-image: url("assets/images/lithium.png");
+    height:600px;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+} 
+
+
+
+
+
+
 /* EARTH - ROTATION */
 
 .earth-rotate {
@@ -598,15 +614,7 @@ height: 300px;
 
 
 
-
-
-
-
-
-
-
-
-/* EARTH - SPINNING STARS */
+/* EARTH - MOON */
 
 .stars {
 	width: 100vw;
@@ -631,8 +639,37 @@ height: 300px;
 
 
 
+/* EARTH - SPINNING WINDMILL */
 
 
+.windmill {
+  animation: rotation 4s infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+ }
+  to {
+  	transform: rotate(360deg);
+  }
+
+
+
+
+
+
+/* EARTH - CHARGER */
+
+
+/* EARTH - ALIEN */
+
+
+/* EARTH - MOVING WATER */
+
+
+/* EARTH - CAMERA */
 
 
 
