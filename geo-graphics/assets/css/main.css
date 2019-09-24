@@ -647,9 +647,14 @@ body {
 
 /* ADDRESS - MAP LINES */
 
-
-
-
+.maplines {
+	background-image: url("assets/images/lithium.png");
+    width: 100%;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
 
 
 
@@ -971,14 +976,27 @@ body {
 
 
 
+/* EARTH - ELECTRICITY */
+
+.electric {
+	width: 100vw;
+	height:100vh;
+	background-color: yellow;
+}
+
+.electric-font {
+	font-size: 20.5vw;
+ 	color: white;
+ 	font-family: Helvetica italic;
+
+}
+
+
 
 
 /* EARTH - CHARGER */
 
 
-
-
-/* EARTH - MOVING WATER */
 
 
 /* EARTH - CAMERA */
