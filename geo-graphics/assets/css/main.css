@@ -645,6 +645,9 @@ body {
 
 
 
+
+
+
 /* ADDRESS - MAP LINES */
 
 .maplines {
@@ -994,12 +997,42 @@ body {
 
 
 
-/* EARTH - CHARGER */
-
-
-
 
 /* EARTH - CAMERA */
+
+.camera-text {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.lights {
+	font-family: verdana; 
+	font-size: 100px;
+	color: red;
+	padding: 10px;
+	animation: lights-blinker 1s linear infinite;
+}
+
+
+@keyframes lights-blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
 
 
 
