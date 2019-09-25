@@ -964,7 +964,7 @@ body {
 		to {
 				transform: rotate(359deg);
 		}
-
+}
 
 
 
@@ -973,7 +973,11 @@ body {
 /* EARTH - ALIEN */
 
 .eyes {
-	padding: 100px;
+	width: 100vw;
+	padding: 70px 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -981,17 +985,24 @@ body {
 
 /* EARTH - ELECTRICITY */
 
-.electric {
+
+.electric-box {
 	width: 100vw;
-	height:100vh;
-	background-color: yellow;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: radial-gradient(red, orange, yellow);
 }
 
-.electric-font {
-	font-size: 20.5vw;
- 	color: white;
- 	font-family: Helvetica italic;
 
+
+
+.electricity {
+	font-family: sans-serif;
+	font-size: 200px;
+	color: white;
+	text-align: center;
 }
 
 
@@ -1000,23 +1011,71 @@ body {
 
 /* EARTH - CAMERA */
 
-.camera-text {
-	width: 100vw;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.lights-camera-action {
+	padding: 150px 20px;
 }
 
 
+
+.lights-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
 
 .lights {
 	font-family: verdana; 
 	font-size: 100px;
-	color: red;
+	color: white;
+	padding: 10px;
+	animation: lights-blinker 0.7s linear infinite;
+}
+
+
+
+
+.camera-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.camera {
+	font-family: verdana; 
+	font-size: 100px;
+	color: white;
 	padding: 10px;
 	animation: lights-blinker 1s linear infinite;
 }
+
+
+
+
+.action-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+}
+
+.action {
+	font-family: verdana; 
+	font-size: 100px;
+	color: white;
+	padding: 10px;
+	animation: lights-blinker 1.3s linear infinite;
+}
+
+
+
+
+
+
+
+
+
 
 
 @keyframes lights-blinker {
