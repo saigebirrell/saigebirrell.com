@@ -11,18 +11,16 @@ a {
 
 
 /* INDEX PAGE */
-
-
+/* title box */
 .geoflags {
 	width: 100vw;
 	display: flex;
 	padding: 20px;
 	justify-content: center;
-
 }
 
 
-
+/* title  */
 .geoflag-text {
 	font-family: sans-serif;
 	font-size: 100px;
@@ -32,33 +30,43 @@ a {
 
 
 
-
+/* address links */ 
 .address {
 	display: flex;
+    flex-direction: column;
+    column-width: 50%;
 
 }
-
-
 
 
 .address-flag {
-	flex: 50%;
+
 	text-decoration: none;
 }
 
 
-
-
-.earth {
-	display: flex;
+.address-flag:hover {
+	color: blue;
 }
 
 
+/* earth links */ 
+.earth {
+	display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
 
 
 .earth-flag {
-	flex: 50%;
+
 	text-decoration: none;
+}
+
+
+.earth-flag:hover {
+	color: blue;
 }
 
 

@@ -1,0 +1,92 @@
+body {
+	font-family: Poppins, sans-serif;
+	cursor: pointer;
+}
+
+a {
+	color: black;
+}
+
+
+/* left navigation bar */
+
+.sidebar {
+	position: fixed;
+	width:20%;
+	top:0px;
+	left:0px;
+	height:100vh;
+	font-size: 3vw;
+	padding: 36% 15px 15px 15px;
+	background-color: black;
+}
+
+.sidebar-item {
+
+	font-size: 24px;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 3px;
+}
+
+
+
+
+/* title image at top */
+
+.title {
+	width: 100%;
+	padding: 10px 0 40px 0;
+}
+
+.title img {
+	width: 60%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+
+
+
+/* main content on right hand side */
+
+.main {
+	width:80%;
+	margin-left: 20%;
+	background-color: white;
+}
+
+.main-content {
+	padding: 10px; 
+}
+
+
+
+.podcast {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.podcast-item {
+	flex: 0 25%;
+	padding: 10px;
+}
+
+
+.podcast-item img {
+	width: 100%;
+}
+
+
+
+
+/* interactive classes */
+
+.hide {
+	display: none;
+}
+
