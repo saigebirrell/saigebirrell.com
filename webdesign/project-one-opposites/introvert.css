@@ -1,0 +1,116 @@
+ 
+  body {
+	text-align: center;	 
+	background-color: #f7616f;
+	cursor: pointer;
+}
+
+
+
+/* introvert notes */
+
+
+/* title */
+
+.introtitle {
+	position: flex;
+	flex-wrap: center;
+	font-size: 150px;
+	text-align: center; 
+	font-family: Libre Baskerville, serif;
+	color: #2338c1;
+	padding: 230px 20px;
+	text-decoration: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.introtitle:hover {
+	transition: all 1s;
+	color: #ffaec5;
+	border-radius: 0%;
+}
+
+
+
+
+/* artwork */
+
+.introartwork {
+	padding: 20px;
+	transition: transform 1s;
+	margin: 0 auto;
+}
+
+.introartwork:hover {
+	transform: scale(1.5);
+}
+
+
+
+
+/* clouds */
+
+.cloudone { top: 8%;
+	padding: 40px 30px 0px;
+		position:absolute;
+		animation:linear;
+		animation-duration: 25s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-name: movingcloud;
+}
+
+
+@keyframes movingcloud {
+	0% { left: 10%; margin-left: 10px;}
+    50%{ left : 60%; margin-right: 10px;}
+    100%{ left: 10%; margin-left: 10px;}
+}
+
+
+.cloudtwo { top: 30%;
+	padding: 300px 30px 0px;
+		position:absolute;
+		animation:linear;
+		animation-duration: 25s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-name: secondcloud;
+}
+
+
+@keyframes secondcloud {
+	0% { right: 20%; margin-right: 10px;}
+    50% { right : 70%; margin-left: 10px;}
+    100% { right: 20%; margin-right: 10px;}
+}
+
+
+
+/* information */
+
+.introinfo {
+	font-size: 15px; 
+	font-family: Roboto;
+	color: #ffaec5;
+	padding: 0px 200px 55px;
+	column-count: 3;
+	column-gap: 20px;
+	text-align: left; 
+}
+
+
+.introinfo:hover {
+	transition: all 2s;
+	color: #2338c1;
+	border-radius: 0%;
+}
+
+
+
+

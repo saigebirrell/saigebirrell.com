@@ -1,0 +1,95 @@
+ 
+  body {
+	text-align: center;	 
+	background-color: #f9c38f;
+	cursor: pointer;
+}
+
+
+
+/* extrovert notes */
+
+
+/* heading */
+
+.extrotitle {
+ 	position: flex;
+	flex-wrap: center;
+	font-size: 150px;
+	text-align: center; 
+	font-family: Libre Baskerville, serif;
+	color: #2338c1;
+	padding: 230px 20px 220px;
+	text-decoration: none;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+.extrotitle:hover {
+	transition: all 1s;
+	color: #b6ecff;
+	border-radius: 0%;
+	text-decoration: none;
+}
+
+
+/* artworks */
+
+.speechbubble {
+	display: inline-block;
+	float:left;
+	position: absolute;
+	padding: 290px 0 0 230px;
+	transition: transform 1s;
+	
+}
+
+
+.speechbubble:hover {
+	transform: rotate(-15deg);
+}
+
+
+.extroartwork {
+	padding: 0 0 0 160px;
+	display: inline-block;
+	position: absolute center;
+	transition: transform 1s;
+
+}
+
+
+.extroartwork:hover {
+	transform: rotate(10deg);
+}
+
+
+
+
+
+/* information */
+
+.extroinfo {
+	font-size: 15px; 
+	font-family: Roboto;
+	color: #2338c1;
+	padding: 0px 200px 55px;
+	column-count: 3;
+	column-gap: 20px;
+	text-align: left; 
+}
+
+
+.extroinfo:hover {
+	transition: all 2s;
+	color: #b6ecff;
+	border-radius: 0%;
+}
+
+
+
+

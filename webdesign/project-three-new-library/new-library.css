@@ -1,0 +1,158 @@
+body {
+background-color: #b5d9ff;
+height: 100vh;
+
+
+}
+
+
+
+/* new library title */
+.subtitle {
+	font-family: arial;
+	font-style: italic;
+	position: inline-block;
+	text-align: center;
+	font-size: 20px;
+	padding: 12% 0 10px 0 ;
+	color: white;
+
+}
+
+.title {
+	font-family: Mansalva, cursive;
+	position: inline-block;
+	text-align: center;
+	font-size: 100px;
+	padding: 0 0 4% 0 ;
+	color: white;
+	text-shadow: 3px 3px #007cff;
+}
+
+
+
+
+
+/* new library navbar  */
+.navbar {
+	overflow: hidden;
+	width: 100%;
+	float: left;
+	background-color: none;
+	font-family: Arial;
+	position: inline-block;
+	text-align: center;
+	padding: 0 27% 20% 29%;
+}
+
+
+
+/* new library dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  min-width: 200px;
+
+}
+
+
+
+/* new library dropdown button */
+.dropbtn {
+	font-size: 20px;
+  	border: none;
+	outline: none;
+  	color: white;
+  	padding: 20px 50px;
+	background-color: inherit;
+	margin: 0;
+	min-width: 200px;
+}
+
+
+
+/* new library add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #61adff;
+	min-width: 200px;
+}
+
+
+
+/* new library aropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #82beff;
+	text-align: center;
+	min-width: 200px;
+}
+
+
+/* new library links inside the dropdown */
+.dropdown-content a {
+  float: center;
+  color: white;
+  width: 200px;
+  padding: 20px 0;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+ }
+
+
+
+/* new library add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #385df2;
+}
+
+
+
+/* new library show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+/* household avoid title */
+.link-title {
+	font-family: Mansalva, cursive;
+	position: inline-block;
+	text-align: center;
+	font-size: 40px;
+	padding: 10px 0 0 0 ;
+	color: white;
+	text-shadow: 3px 3px #007cff;
+}
+
+
+
+
+
+/* settings for mobile screen view */
+
+@media screen and (max-width: 600px) {
+  .bio {
+    width: 100%;
+  }
+
+.title {
+	font-size: 70px;
+ }
+
+.navbar {
+		padding: 0 27% 70% 29%;
+}
+
+
+}
+
+
+
+
+
+
+

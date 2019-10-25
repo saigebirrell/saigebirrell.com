@@ -1,0 +1,181 @@
+ 
+body {
+	font-family: 'Be Vietnam', sans-serif;
+  margin: 0;
+  cursor: pointer;
+  background-image: url("images/pink-background.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+
+
+/* navigation bar */
+
+.profile-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  list-style: none;
+  text-align: center;
+}
+
+
+.profile-nav-item {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  color: #f2f2f2;
+  padding: 0px 16px 70px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.profile-nav-item:hover {
+  background-color: none;
+  color: #fc3003;
+}
+
+
+
+
+
+
+/* title and subtitle for page */
+
+.title-box {
+  font-family: 'Oswald', sans-serif;
+  float:left; 
+  display:inline; 
+  width: 24%;
+  padding: 7% 0% 0% 5%;
+}
+
+
+.title-one {
+  font-size: 85px;
+  color: white;
+  line-height: 79px;
+}
+
+
+.title-two {
+  font-size: 18px;
+  color: white;
+  line-height: 40px;
+
+}
+
+
+
+
+
+
+
+/* images for each profile */
+
+.face {
+float:left; 
+display:flex; 
+flex-wrap: wrap;
+width: 36%;
+margin: 0;
+padding: 2% 0 0 0;
+}
+
+
+.profile-face {
+
+}
+
+
+
+
+
+
+/* bio for each profile */
+
+.bio {
+  float:left; 
+  display:inline; 
+  width: 31%;
+  padding: 6% 2% 0 14px;
+}
+
+
+
+.bio p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  color: white;
+  line-height: 0.5px;
+  columns: 1;
+}
+
+
+.profile-bio {
+  font-size: 10px;
+  color: white;
+  columns: 2;
+  column-width: 3px;
+  line-height: 16px;
+
+}
+
+
+
+
+
+
+/* settings for mobile screen view */
+
+@media screen and (max-width: 600px) {
+  .bio {
+    width: 100%;
+  }
+
+
+  .title-box {
+    width: 100%; 
+    padding: 90px 0px 10px 16px;
+    text-align: center;
+  }
+  
+
+  .face {
+    width: 200px;
+  }
+
+
+  .profile-nav {
+    width: 100%;
+    position: top;
+    top: 0;
+  }
+
+
+  .profile-nav-item {
+    padding: 17px 0px 10px 16px;
+  }
+}
+
+
+
+
+
+
+
+
+/* interactive classes */
+.hide {
+  display: none;
+}
+
+
+
+
+
