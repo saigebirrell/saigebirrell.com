@@ -1,0 +1,59 @@
+
+
+body {
+	width: 100%;
+	height: 100%;
+	background-size:cover;
+	font-family: impact,sans-serif;
+	font-size: 40px;
+	cursor: pointer;	
+}
+
+
+
+.nav {
+	width: 100%;
+	background-color:none;
+	padding: 5px 5px;
+	position: fixed;
+	text-align: center;
+	top: 0px;
+	left: 0px;
+}
+
+
+.nav-item {
+	display: inline-block; 
+	padding: 12px;
+	background-color: none;
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	text-decoration: none;
+	font-size: 25px;
+}
+ 
+
+
+
+.title {
+	width: 100%;
+	font-family: 'Fjalla One', sans-serif, bold;
+	color: teal;
+	font-size: 140px;
+	text-align: left;
+	text-shadow: 5px 5px white;
+	padding: 3% 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
