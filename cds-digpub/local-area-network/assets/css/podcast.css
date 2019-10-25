@@ -1,7 +1,7 @@
 body {
 	font-family: Poppins, sans-serif;
 	cursor: pointer;
-	background-color: yellow;
+	background-color: none;
 }
 
 a {
@@ -19,6 +19,7 @@ a {
 	height:100vh;
 	font-size: 3vw;
 	background-color: grey;
+	height: 100vh;
 }
 
 .sidebar-item {
@@ -67,6 +68,7 @@ a {
 	width:85%;
 	margin-left: 15%;
 	background-color: white;
+	height: 100vh;
 }
 
 .main-content {
