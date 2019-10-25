@@ -1,12 +1,14 @@
- body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+ .body {
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 57%, rgba(9,9,121,1) 86%, rgba(5,47,187,1) 100%);
+	font-family: 'Karla', sans-serif;
+	font-size: 25px;
 }
 
 
 
 a {
-	color:red;
+	color:white;
 }
 
 
@@ -15,60 +17,107 @@ a {
 .geoflags {
 	width: 100vw;
 	display: flex;
-	padding: 20px;
+	padding: 3% 0 4% 0;
 	justify-content: center;
+
 }
 
 
 /* title  */
 .geoflag-text {
-	font-family: sans-serif;
-	font-size: 100px;
-	color: black;
+	font-family: 'Play', sans-serif;
+	font-size: 80px;
+	color: white;
 	text-align: center;
 }
 
 
+.flag-container {
+	width: 100%;
+	margin: auto;
+}
 
-/* address links */ 
-.address {
-	display: flex;
-    flex-direction: column;
-    column-width: 50%;
+
+
+
+/* box of address flag items */
+
+
+.subheading {
+	text-decoration: none;
+	pointer-events: none;
+	font-size: 30px;
+	font-family: 'Play', sans-serif;
 
 }
 
+.address-flag-items {
+	width: 50%;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	padding: 2% 0 0 0;
+	font-family: 'Karla', sans-serif;
+}
 
 .address-flag {
-
 	text-decoration: none;
+	text-align: center;
+	padding: 0 0 0 60%;
+	line-height: 32px;
 }
-
 
 .address-flag:hover {
-	color: blue;
+	color: #d9ff00;
 }
 
 
-/* earth links */ 
-.earth {
+
+
+
+/* box of earth flag items */ 
+
+.earth-flag-items {
+	width: 50%;
+	float: left;
 	display: flex;
-    flex-direction: column;
-    width: 50%;
-
+	flex-direction: column;
+	padding: 2% 0 0 0;
 }
-
 
 .earth-flag {
-
 	text-decoration: none;
+	text-align: center;
+	padding: 0 60% 0 0;
+	line-height: 32px;
 }
-
 
 .earth-flag:hover {
-	color: blue;
+	color: #00ff33;
 }
 
+
+
+
+/* home button */
+.home-container {
+	text-align: center;
+
+			padding:33% 0 5% 0;
+}
+
+
+.home-button {
+	font-family: 'Play', sans-serif; 
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+}
+
+
+.home-button:hover {
+	color: red;
+}
 
 
 

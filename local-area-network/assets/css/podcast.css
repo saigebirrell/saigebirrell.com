@@ -1,6 +1,7 @@
 body {
 	font-family: Poppins, sans-serif;
 	cursor: pointer;
+	background-color: yellow;
 }
 
 a {
@@ -12,32 +13,34 @@ a {
 
 .sidebar {
 	position: fixed;
-	width:20%;
+	width:15%;
 	top:0px;
 	left:0px;
 	height:100vh;
 	font-size: 3vw;
-	padding: 36% 15px 15px 15px;
-	background-color: black;
+	background-color: grey;
 }
 
 .sidebar-item {
 
-	font-size: 24px;
-	line-height: 40px;
-	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 25px;
 	color: white;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
+	padding: 3% 0 0 8%;
+	text-decoration: none;
 }
 
-
+.sidebar-item:hover {
+	color: yellow;
+}
 
 
 /* title image at top */
 
 .title {
 	width: 100%;
-	padding: 10px 0 40px 0;
+	padding: 5% 0 3% 0;
 }
 
 .title img {
@@ -47,14 +50,22 @@ a {
   	margin-right: auto;
 }
 
+.introduction {
+	font-size: 15px;
+	color: grey;
+	padding: 0 19% 2% 20%;
+	line-height: 24px;
+	text-align: center;
+
+}
 
 
 
 /* main content on right hand side */
 
 .main {
-	width:80%;
-	margin-left: 20%;
+	width:85%;
+	margin-left: 15%;
 	background-color: white;
 }
 
@@ -67,20 +78,51 @@ a {
 .podcast {
 	display: flex;
 	flex-wrap: wrap;
+	padding: 2%;
 }
 
 
 
 .podcast-item {
 	flex: 0 25%;
-	padding: 10px;
+	padding: 2%;
 }
 
 
 .podcast-item img {
 	width: 100%;
+	opacity: 0.8;
 }
 
+
+.podcast-item img:hover {
+	opacity: 1.0;
+}
+
+
+
+h1 {
+	padding: 7px;
+	font-size: 20px;
+	color: lightgrey;
+}
+
+h1:hover {
+	color: black
+}
+
+
+h6 {
+	padding: 5px;
+	font-size: 10px;
+	line-height: 15px;
+	color: lightgrey;
+}
+
+
+h6:hover {
+	color: black
+}
 
 
 
