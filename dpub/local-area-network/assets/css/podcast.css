@@ -96,6 +96,11 @@ a {
 	opacity: 0.8;
 }
 
+.podcast-item audio {
+	width: 100%;
+	margin-top: 10px;
+}
+
 
 .podcast-item img:hover {
 	opacity: 1.0;
