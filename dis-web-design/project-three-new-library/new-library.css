@@ -5,26 +5,18 @@ html, body {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
 
 /* new library title */
 .container1 {
 	background-color: #b5d9ff;
 	height: 100vh;
-	padding: 200px 50px 50px 50px;
-
 }
 
 
-.subtitle {
-	font-family: arial;
-	font-style: italic;
-	text-align: center;
-	font-size: 20px;
-	color: white;
-	margin-top: 0;
-	position: sticky;
-	top: 100px;
-}
 
 
 .title {
@@ -33,57 +25,89 @@ html, body {
 	font-size: 150px;
 	color: white;
 	text-shadow: 4px 4px #007cff;
-	margin-top: 0;
+	margin: 0 50px;
+	padding: 8% 0 4% 0;
 	position: sticky;
 	top: 100px;
 }
 
 
 
-
-
-/* new library navbar  */
-
+/* container2: information */
 .container2 {
-	height: 600px;
-	padding: 140px 0 0 0;
-	background-color: #f1ffbd;
+	height: 800px;
+	background-color: #003cff;
 	top:100px;
+}
+
+
+.subtitle {
+	font-family: arial; 
+	font-style: italic;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	margin-top: 0;
+	position: sticky;
+	top: 100px;
+	padding: 20% 5% 10% 5%;
+}
+
+
+
+
+
+
+
+/* container3: new library navbar  */
+
+.container3 {
+	height: 50px;
+	background-color: #b5d9ff;
+	top:100px;
+	padding: 25% 15%;
 }
 
 .navbar {
 	overflow: hidden;
 	width: 100%;
 	float: left;
+	margin: auto;
+	text-align: center;
 	background-color: none;
+	padding: 4px;
 	font-family: Arial;
 	position: inline-block;
-	text-align: center;
-	padding: 0 27% 20% 29%;
+
 }
+
+
 
 
 
 /* new library dropdown container */
 .dropdown {
-  float: left;
-  overflow: hidden;
-  min-width: 200px;
-
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	min-width: 200px;
+	text-align: center;
 }
 
 
 
 /* new library dropdown button */
 .dropbtn {
-	font-size: 20px;
+	font-size: 40px;
   	border: none;
 	outline: none;
   	color: white;
-  	padding: 20px 50px;
 	background-color: inherit;
-	margin: 0;
+	margin-left: 20px;
 	min-width: 200px;
+	padding: 5%;
+	text-align: center;
 }
 
 
@@ -103,48 +127,109 @@ html, body {
 	background-color: #82beff;
 	text-align: center;
 	min-width: 200px;
+
 }
 
 
 /* new library links inside the dropdown */
 .dropdown-content a {
-  float: center;
-  color: white;
-  width: 200px;
-  padding: 20px 0;
-  text-decoration: none;
-  display: block;
-  text-align: center;
+ 	float: center;
+ 	color: white;
+ 	min-width: 200px;
+ 	padding: 20px 0;
+	text-decoration: none;
+  	display: block;
+  	text-align: center;
+  	font-size: 30px;
  }
 
 
 
 /* new library add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #385df2;
+ 	background-color: #385df2;
 }
 
 
 
 /* new library show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+ 	display: block;
 }
 
 
 
 
-/* household avoid title */
+/* container for all link pages */
+.container4 {
+  	background-color: #b5d9ff;
+	height: 100vh;
+}
+
+
+
+/* title for all link pages */
 .link-title {
 	font-family: Mansalva, cursive;
 	position: inline-block;
 	text-align: center;
-	font-size: 40px;
-	padding: 10px 0 0 0 ;
+	font-size: 60px;
+	padding: 14% 0 3% 0 ;
 	color: white;
 	text-shadow: 3px 3px #007cff;
+	margin: 0 50px;
+	position: sticky;
+	top: 100px;
+
 }
 
+
+/* container for all the body text on linking pages */
+.container5 {
+	height: 425px;
+	background-color: #003cff;
+	top:100px;
+	padding: 10%;
+}
+
+
+
+/* all the body text on linking pages */
+.body-item {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 18%;
+}
+
+
+.body-item input:checked ~ label:before {
+	content: "\02713";
+}
+
+
+
+/*top back button */
+.container6 {
+	background-color: #003cff;
+	height: 50px;
+	top:30px;
+	padding: 2%;
+}
+
+
+
+.back-button {
+	font-family: Mansalva, cursive;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	float: center;
+}
 
 
 
