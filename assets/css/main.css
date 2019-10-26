@@ -33,7 +33,9 @@ body {
 }
  
 
-
+.nav-item a:hover {
+	color: teal;
+}
 
 .title {
 	width: 100%;
