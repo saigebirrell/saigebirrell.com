@@ -1,32 +1,41 @@
-body {
-background-color: #b5d9ff;
-height: 100vh;
 
 
+html, body {
+	margin: 0;
+	padding: 0;
 }
-
 
 
 /* new library title */
-.subtitle {
-	font-family: arial;
-	font-style: italic;
-	position: inline-block;
-	text-align: center;
-	font-size: 20px;
-	padding: 12% 0 10px 0 ;
-	color: white;
+.container1 {
+	background-color: #b5d9ff;
+	height: 100vh;
+	padding: 200px 50px 50px 50px;
 
 }
 
+
+.subtitle {
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-top: 0;
+	position: sticky;
+	top: 100px;
+}
+
+
 .title {
 	font-family: Mansalva, cursive;
-	position: inline-block;
 	text-align: center;
-	font-size: 100px;
-	padding: 0 0 4% 0 ;
+	font-size: 150px;
 	color: white;
-	text-shadow: 3px 3px #007cff;
+	text-shadow: 4px 4px #007cff;
+	margin-top: 0;
+	position: sticky;
+	top: 100px;
 }
 
 
@@ -34,6 +43,14 @@ height: 100vh;
 
 
 /* new library navbar  */
+
+.container2 {
+	height: 600px;
+	padding: 140px 0 0 0;
+	background-color: #f1ffbd;
+	top:100px;
+}
+
 .navbar {
 	overflow: hidden;
 	width: 100%;
