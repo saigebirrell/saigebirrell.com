@@ -50,7 +50,7 @@ a {
 	margin-top: 0;
 	position: sticky;
 	top: 100px;
-	padding: 20% 5% 10% 5%;
+	padding: 18% 5% 8% 5%;
 }
 
 
@@ -184,17 +184,85 @@ a {
 }
 
 
-/* container for all the body text on linking pages */
+/* container for all different body text on linking pages */
 .container5 {
-	height: 425px;
+	height: 428px;
 	background-color: #003cff;
 	top:100px;
-	padding: 10%;
+	padding: 6% 10% 10% 10%;
+}
+
+
+.container7 {
+	height: 420px;
+	background-color: #003cff;
+	top:100px;
+	padding: 17% 20% 3% 15%;
 }
 
 
 
-/* all the body text on linking pages */
+.container8 {
+	height: 425px;
+	background-color: #003cff;
+	top:100px;
+	padding: 10% 20%;
+}
+
+
+.container9 {
+	height: 545px;
+	background-color: #003cff;
+	top:100px;
+	padding: 6% 6% 2% 2%;
+}
+
+
+.container10 {
+	height: 430px;
+	background-color: #003cff;
+	top:100px;
+	padding: 15% 20% 5% 12%;
+}
+
+
+
+.container11 {
+	height: 428px;
+	background-color: #003cff;
+	top:100px;
+	padding: 6% 18% 10% 23%;
+}
+
+
+.container12 {
+	height: 428px;
+	background-color: #003cff;
+	top:100px;
+	padding: 6% 10% 10% 10%;
+}
+
+
+.container13 {
+	height: 420px;
+	background-color: #003cff;
+	top:100px;
+	padding: 17% 20% 3% 15%;
+}
+
+
+.container14 {
+	height: 420px;
+	background-color: #003cff;
+	top:100px;
+	padding: 17% 20% 3% 15%;
+}
+}
+
+
+
+
+/* all the different body text alternatives on linking pages */
 .body-item {
 	font-family: arial; 
 	text-align: left;
@@ -210,15 +278,64 @@ a {
 }
 
 
+.body-item2 {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 10%;
+}
 
-/*top back button */
+
+.body-item3 {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 1%;
+}
+
+
+.body-item4 {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 18%;
+}
+
+
+.body-item5 {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 7%;
+}
+
+
+.body-item6 {
+	font-family: arial; 
+	text-align: left;
+	font-size: 25px;
+	color: white;
+	line-height: 42px;
+	padding-left: 11%;
+}
+
+
+
+/* back button at bottom of page */
 .container6 {
 	background-color: #003cff;
 	height: 50px;
 	top:30px;
 	padding: 0 2% 0 0;
 }
-
 
 
 .back-button {
@@ -230,6 +347,13 @@ a {
 	display: block;
 	float: center;
 }
+
+
+.back-button a:hover {
+	colour: lightblue;
+}
+
+
 
 
 
@@ -247,6 +371,58 @@ a {
 
 .navbar {
 		padding: 0 27% 70% 29%;
+}
+
+
+.container7 {
+	height: 560px;
+}
+
+
+.container8 {
+	height: 570px;
+	padding: 10% 5%;
+}
+
+
+.body-item4 {
+		padding-left: 2%;
+}
+
+
+.container11 {
+	height: 580px;
+	padding: 6% 14% 10% 10%;
+}
+
+
+.container5 {
+	height: 720px;
+	padding: 6% 5% 30% 0;
+
+}
+
+.container12 {
+	height: 80%;
+	padding: 6% 8% 30% 5%;
+}
+
+
+.container13 {
+	height: 580px;
+	padding: 17% 10% 3% 5%;
+}
+
+
+.container9 {
+	height: 80%;
+	padding: 6% 6% 2% 2%;
+}
+
+
+.container10 {
+	height: 80%;
+	padding: 6% 9% 10% 2%;
 }
 
 
